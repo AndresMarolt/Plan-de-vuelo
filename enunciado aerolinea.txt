@@ -1,0 +1,11 @@
+Una aerolínea posee un planisferio con las ciudades que recorre, de tal manera que cada ciudad posee unas coordenadas (X,Y), que indican su posición en el plano. La proyección utilizada en el mapa es tal como para poder comparar las posiciones de las ciudades dadas sus coordenadas.
+
+Se desea hacer un programa que solicite las coordenadas de un plan de vuelo, hasta que se indique -1 como fin de la ruta. El sistema debe informar cuál es la distancia total recorrida.
+
+Ejemplo de ingreso:
+1) Buenos Aires 50, 50
+2) Cordoba 30, 70
+3) Tucuman 20, 95
+
+La distancia recorrida debe ser la suma de las distancias entre el destino 1 y el 2, más el 2 con el 3.
+Para los ejemplos de arriba daría: 55.21
